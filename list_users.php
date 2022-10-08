@@ -70,5 +70,6 @@ $users = $userModel->getUsers($params);
             </div>
         <?php } ?>
     </div>
+    
 </body>
 </html>
