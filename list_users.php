@@ -47,8 +47,7 @@ $users = $userModel->getUsers($params);
                                 <?php echo htmlentities($user['fullname']);?>
                             </td>
                             <td>
-                                <?php echo htmlentities($user['type']);?>
-                            </td>
+                              yy                            </td>
                             <td>
                                 <a href="form_user.php?id=<?php echo $user['id'] ?>">
                                     <i class="fa fa-pencil-square-o" aria-hidden="true" title="Update"></i>
