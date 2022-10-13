@@ -41,7 +41,7 @@ $users = $userModel->getUsers($params);
                         <tr>
                             <th scope="row"><?php echo $user['id']?></th>
                             <td>
-                                <?php echo $user['name']?>
+                                <?php echo htmlentities($user['name']);?>
                             </td>
                             <td>
                                 <?php echo htmlentities($user['fullname']);?>
